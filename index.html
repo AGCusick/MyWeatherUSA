@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Weather USA</title>
+</head>
+
+<body>
+    <div class="mainContainer">
+        <div class="title">
+            <h1>My Weather USA</h1>
+            <form class="zip">
+                <input id="zipCode" type="number" placeholder="Enter Zip Code">
+                <button id="changeLocation">Change location</button>
+            </form>
+        </div>
+        <div class="currentConditions">
+            <div class="city"></div>
+            <div class="time"></div>
+            <br>
+            <div class="temp"></div>
+            <div class="feelsLike"></div>
+            <div class="humidity"></div>
+            <div class="icon"></div>
+            <div class="condition"></div>
+            <div class="wind"></div>
+            <div class="gust"></div>
+        </div>
+        <div class="threeDay">
+        </div>
+        <div class="apiContainer">
+            Powered by <a href="https://www.weatherapi.com/" title="Free Weather API">WeatherAPI.com</a>
+            <a href="https://www.weatherapi.com/" title="Free Weather API"><img
+                    src='//cdn.weatherapi.com/v4/images/weatherapi_logo.png' alt="Weather data by WeatherAPI.com"
+                    border="0"></a>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
