@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(238, 244, 246);
+}
+
+.city {
+    font-size: 30px;
+}
+
+.time {
+    font-size: 20px;
+}
+
+.temp {
+    font-size: 36px;
+    font-weight: bold;
+    width: 100px;
+}
+
+.wind {
+    width: 200px;
+}
+
+.gust {
+    width: 200px;
+}
+
+.condition {
+    width: 200px;
+}
+
+.currentConditions {
+    display: none;
+    padding: 10px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(10, 104, 198, 0.9);
+    color: #e8e2e2;
+    box-shadow: 1px 2px 2px rgb(62, 61, 61);
+}
+
+#zipCode {
+    border-radius: 10px;
+    text-align: center;
+    width: 130px;
+    height: 30px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(205, 15, 15);
+}
+
+#changeLocation {
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(206, 109, 44);
+    margin-bottom: 20px;
+    font-weight: bold;
+    display: none;
+}
+
+.icon {
+    margin-top: -50px;
+    float: right;
+    padding-right: 40px;
+}
+
+.apiContainer {
+    display: none;
+    margin-top: 20px;
+}
+
+.threeDay {
+    display: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.oneTemp,
+.twoTemp,
+.threeTemp {
+    font-weight: bold;
+}
+
+.forecastStyle {
+    margin-top: 20px;
+    padding: 10px;
+    width: 300px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(10, 104, 198, 0.9);
+    color: #e8e2e2;
+    box-shadow: 1px 2px 2px rgb(62, 61, 61);
+}
+
+.forecastIconImg {
+    float: right;
+}
+
